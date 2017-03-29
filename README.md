@@ -35,7 +35,7 @@ of newline-delimited JSON containing the documents that are in `log2` but not
 With [npm](https://npmjs.org/) installed, run
 
 ```
-$ npm install osm-p2p-diff
+$ npm install -g osm-p2p-diff
 ```
 
 ## See Also
