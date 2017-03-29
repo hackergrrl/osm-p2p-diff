@@ -2,7 +2,7 @@
   "name": "osm-p2p-diff",
   "description": "diff the documents in two osm-p2p-db instances",
   "author": "Stephen Whitmore <sww@eight.net>",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "bin": {
     "osm-p2p-diff": "bin.js"
   },
