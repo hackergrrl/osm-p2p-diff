@@ -3,6 +3,9 @@
   "description": "diff the documents in two osm-p2p-db instances",
   "author": "Stephen Whitmore <sww@eight.net>",
   "version": "0.0.0",
+  "bin": {
+    "osm-p2p-diff": "bin.js"
+  },
   "repository": {
     "url": "git://github.com/noffle/osm-p2p-diff.git"
   },
