@@ -18,6 +18,13 @@ osm-p2p-db databases together.
 Point this at two [hyperlog](https://github.com/mafintosh/hyperlog) leveldb
 directories. If you're working with an osm-p2p-db, this will be `osm-dir/log`.
 
+To perform a merge between two `osm-p2p-db`s, combine with `osm-p2p-diff`:
+
+```
+$ osm-p2p-diff osm1/log osm2/log > diff
+$ osm-p2p-append osm1 < diff
+```
+
 ## API
 
 ```js
