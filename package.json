@@ -10,18 +10,21 @@
   "bugs": "https://github.com/noffle/osm-p2p-diff/issues",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js",
     "lint": "standard"
   },
-  "keywords": [],
+  "keywords": [
+    "osm",
+    "osm-p2p",
+    "osm-p2p-db",
+    "diff"
+  ],
   "dependencies": {
     "hyperlog": "^4.12.1",
     "level": "^1.6.0",
-    "topo-sort": "^1.0.0",
-    "uniq": "^1.0.1"
+    "through2": "^2.0.3",
+    "topo-sort": "^1.0.0"
   },
   "devDependencies": {
-    "tape": "~4.6.2",
     "standard": "~8.3.0"
   },
   "license": "ISC"
