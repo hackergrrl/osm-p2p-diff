@@ -6,7 +6,7 @@ Writes, to standard out, all of the OSM documents that appear in the second DB
 that don't appear in the first, as newline-delimited JSON.
 
 Can be used in conjunction with
-[osm-p2p-insert](https://github.com/noffle/osm-p2p-insert) to merge two
+[osm-p2p-append](https://github.com/noffle/osm-p2p-append) to merge two
 osm-p2p-db databases together.
 
 ## CLI
@@ -40,7 +40,7 @@ $ npm install osm-p2p-diff
 
 ## See Also
 
-- [osm-p2p-insert](https://github.com/noffle/osm-p2p-insert)
+- [osm-p2p-append](https://github.com/noffle/osm-p2p-append)
 
 ## License
 
