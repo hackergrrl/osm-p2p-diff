@@ -1,0 +1,28 @@
+{
+  "name": "osm-p2p-diff",
+  "description": "diff the documents in two osm-p2p-db instances",
+  "author": "Stephen Whitmore <sww@eight.net>",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/noffle/osm-p2p-diff.git"
+  },
+  "homepage": "https://github.com/noffle/osm-p2p-diff",
+  "bugs": "https://github.com/noffle/osm-p2p-diff/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "lint": "standard"
+  },
+  "keywords": [],
+  "dependencies": {
+    "hyperlog": "^4.12.1",
+    "level": "^1.6.0",
+    "topo-sort": "^1.0.0",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "~4.6.2",
+    "standard": "~8.3.0"
+  },
+  "license": "ISC"
+}
