@@ -26,7 +26,7 @@ module.exports = function (log1, log2) {
       res.forEach(function (v) {
         var doc = versions[v]
         if (doc._log.length === 1 && doc._log[0] === 2) {
-          t.write(JSON.stringify(doc))
+          t.write(JSON.stringify(doc) + '\n')
         }
       })
     })
